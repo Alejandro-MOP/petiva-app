@@ -11,6 +11,18 @@ const Cliente = db.define('Cliente', {
 		type: Sequelize.STRING(30),
 		allowNull: false,
 	},
+	fecha_nacimiento: {
+		type: Sequelize.DATE,
+		allowNull: false,
+	},
+	num_telefono: {
+		type: Sequelize.STRING(10),
+		allowNull: false,
+	},
+	email: {
+		type: Sequelize.STRING(10),
+		allowNull: false,
+	},
 });
 
 module.exports = Cliente;
