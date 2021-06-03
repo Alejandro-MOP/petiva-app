@@ -1,0 +1,26 @@
+@API = http://127.0.0.1:5000
+###
+POST {{API}}/asesora/
+Content-Type: application/json
+
+{
+    "nombre": "Asesora Prueba",
+    "heroe": "wolwerine",
+    "villano": "magneto"
+}
+
+###
+POST {{API}}/cabina/
+Content-Type: application/json
+
+{
+    "nombre": "Asesora Prueba"
+}
+
+###
+POST {{API}}/cliente/
+Content-Type: application/json
+
+{
+    "nombre": "Asesora Prueba"
+}
